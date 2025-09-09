@@ -1,0 +1,625 @@
+📁 Project Structure
+
+Create three files in the same folder:
+
+index.html
+style.css
+script.js
+assets/
+  photo.jpg   (put your image here, or use any placeholder)
+
+
+---
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Logeshwari – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <h1 class="brand" aria-label="Logeshwari Portfolio">
+        <span id="typing-text" class="typing"></span>
+      </h1>
+
+      <nav class="nav" aria-label="Primary">
+        <button id="themeToggle" class="btn" aria-pressed="false" aria-label="Toggle theme">🌙</button>
+        <button id="menuToggle" class="btn btn-ghost" aria-label="Toggle menu">☰</button>
+        <ul id="navList" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Academic Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#reflections">Reflections</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Personal Info -->
+  <section class="hero" aria-labelledby="title">
+    <div class="container grid-2">
+      <div>
+        <h2 id="title">Logeshwari Portfolio</h2>
+        <p class="lead">Name: <strong>M. Logeshwari</strong></p>
+        <p>Email: <a href="mailto:logimanickaraj@gmail.com">logimanickaraj@gmail.com</a></p>
+        <div class="chips">
+          <span class="chip">B.Sc CS (AI & DS)</span>
+          <span class="chip">Shree Venkateswara Arts & Science College, Othakkuthirai</span>
+        </div>
+      </div>
+      <figure class="profile">
+        <img src="assets/photo.jpg" alt="Photo of M. Logeshwari" />
+        <figcaption>"Keep learning, keep building."</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h3>About Me</h3>
+      <p>I am Logeshwari from a nuclear family, currently studying at Shree Venkateswara Arts and Science College, Othakkuthirai.</p>
+      <div class="grid-2">
+        <div>
+          <h4>Goals</h4>
+          <ul>
+            <li>Get a job in a reputed company.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Interests</h4>
+          <ul>
+            <li>Debugging</li>
+            <li>Editing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <h3>Education</h3>
+      <ul class="timeline">
+        <li>
+          <div class="card">
+            <h4>11th Standard</h4>
+            <p>Reliance Matric Higher Secondary School, Kuppandapalayam</p>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <h4>12th Standard</h4>
+            <p>Reliance Matric Higher Secondary School, Kuppandapalayam</p>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <h4>B.Sc – Computer Science (AI & Data Science)</h4>
+            <p>Shree Venkateswara Arts & Science College, Othakkuthirai</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Academic Work -->
+  <section id="work" class="section">
+    <div class="container">
+      <h3>Academic Work</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Assignments</h4>
+          <ul>
+            <li>Literature review</li>
+            <li>Policy brief</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Projects</h4>
+          <ul>
+            <li>Company overview</li>
+            <li>Profile description</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Essays & Research</h4>
+          <ul>
+            <li>Term paper essay</li>
+            <li>Research essay</li>
+            <li>Case study</li>
+            <li>Research report</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h3>Skills</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Technical</h4>
+          <ul class="tags">
+            <li>Coding</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Creative</h4>
+          <ul class="tags">
+            <li>Editing</li>
+            <li>Drawing</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Communication</h4>
+          <ul class="tags">
+            <li>Active listening</li>
+            <li>Clear speaking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h3>Achievements & Awards</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Certificates</h4>
+          <ul>
+            <li>Academic excellence certificate</li>
+            <li>Best project presentation award</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Medals</h4>
+          <ul>
+            <li>Gold medal for academic excellence</li>
+            <li>Silver medal in science fair</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Honors & Competitions</h4>
+          <ul>
+            <li>Honor roll recognition</li>
+            <li>Excellence in leadership</li>
+            <li>Math Genius Challenge</li>
+            <li>Creative Writing Contest</li>
+            <li>CodeFest Hackathon</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extracurricular -->
+  <section id="activities" class="section">
+    <div class="container">
+      <h3>Extracurricular Activities</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Sports</h4>
+          <ul>
+            <li>Tennikoit</li>
+            <li>Chess</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Clubs</h4>
+          <ul>
+            <li>Lions Club</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Cultural & Volunteering</h4>
+          <ul>
+            <li>Harmony Fest</li>
+            <li>Fest2k24</li>
+            <li>Fusion Fiesta</li>
+            <li>Helping Hands programme</li>
+            <li>Youth Empowerment Drive</li>
+            <li>Smile Makers team</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects / Showcase -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h3>Projects & Showcase</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Science Fair</h4>
+          <ul>
+            <li>Social media analysis</li>
+            <li>Video showcase</li>
+            <li>Website</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Presentations</h4>
+          <ul>
+            <li>Case study presentation</li>
+            <li>Seminar presentation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reflections -->
+  <section id="reflections" class="section">
+    <div class="container">
+      <h3>Reflections & Learning Journey</h3>
+      <div class="grid-2">
+        <div class="card">
+          <h4>What I Learned</h4>
+          <p>Core programming in C++, Java, Python, JavaScript, HTML, and CSS.</p>
+        </div>
+        <div class="card">
+          <h4>Challenges Faced</h4>
+          <ul>
+            <li>Syntax errors</li>
+            <li>Logic building</li>
+            <li>Communication</li>
+            <li>Lack of patience</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Future Goals</h4>
+          <ul>
+            <li>Learn a new skill</li>
+            <li>Join a good club</li>
+            <li>Gain confidence in public speaking</li>
+            <li>Get a job at a top company</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback" class="section">
+    <div class="container">
+      <h3>Feedback & Recommendations</h3>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Teacher Comments</h4>
+          <blockquote>
+            Excellent work — keep up the dedication!
+          </blockquote>
+        </div>
+        <div class="card">
+          <h4>Peer Feedback</h4>
+          <blockquote>
+            I really admired how clearly you explained your ideas.
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h3>Contact</h3>
+      <p>Reach me at <a href="mailto:logimanickaraj@gmail.com">logimanickaraj@gmail.com</a> or send a message below.</p>
+      <form id="contactForm" class="card" novalidate>
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> M. Logeshwari • Built with HTML, CSS & JS</p>
+      <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+---
+
+style.css (Blue + Black Light Theme)
+
+/*
+  THEME SYSTEM
+  - Light: white background with blue accents
+  - Dark: near-black background with electric-blue accents
+*/
+:root {
+  --bg: #0b0c10;            /* used during initial paint to reduce flash */
+  --text: #eaf2ff;
+  --muted: #9bb0cc;
+  --card: #121418;
+  --border: #1c2230;
+  --brand: #5aa9ff;         /* primary blue */
+  --brand-strong: #2d7cff;  /* stronger blue */
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+html[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #0e1a2b;
+  --muted: #4a607a;
+  --card: #f7f9fc;
+  --border: #e6edf5;
+  --brand: #216bff;          /* deep blue accents */
+  --brand-strong: #0f52db;
+}
+
+/* Base reset */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Layout helpers */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
+.grid-2 { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 1.25rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+@media (max-width: 860px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+
+/* Header */
+.site-header {
+  position: sticky; top: 0; z-index: 1000;
+  background: linear-gradient(180deg, rgba(0,0,0,.4), transparent);
+  backdrop-filter: blur(8px);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; padding: .75rem 0; }
+.brand { font-size: 1.25rem; letter-spacing: .5px; margin: 0; }
+.typing { border-right: 2px solid var(--brand); padding-right: .25rem; white-space: nowrap; }
+
+.nav { display: flex; align-items: center; gap: .75rem; }
+.nav-list { display: flex; gap: .75rem; list-style: none; margin: 0; padding: 0; }
+.nav-list a { text-decoration: none; color: var(--text); padding: .45rem .7rem; border-radius: 10px; }
+.nav-list a:hover, .nav-list a.active { background: var(--border); color: var(--brand); }
+
+/* Mobile menu */
+#menuToggle { display: none; }
+@media (max-width: 860px) {
+  #menuToggle { display: inline-flex; }
+  .nav-list { position: absolute; right: 1rem; top: 58px; flex-direction: column; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: .5rem; box-shadow: var(--shadow); display: none; }
+  .nav-list.open { display: flex; }
+}
+
+/* Buttons */
+.btn { border: 1px solid var(--border); background: var(--card); color: var(--text); padding: .45rem .7rem; border-radius: 12px; cursor: pointer; box-shadow: var(--shadow); }
+.btn-ghost { background: transparent; box-shadow: none; }
+.btn:hover { border-color: var(--brand); color: var(--brand); }
+
+/* Hero */
+.hero { padding: 2.5rem 0 1.25rem; border-bottom: 1px solid var(--border); }
+.lead { margin-top: .25rem; color: var(--muted); }
+.chips { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .5rem; }
+.chip { font-size: .85rem; padding: .35rem .6rem; border: 1px solid var(--border); background: var(--card); border-radius: 100px; }
+.profile { justify-self: end; text-align: center; }
+.profile img { width: 220px; height: 220px; border-radius: 16px; object-fit: cover; border: 2px solid var(--border); box-shadow: var(--shadow); }
+.profile figcaption { margin-top: .5rem; font-size: .9rem; color: var(--muted); }
+
+/* Sections */
+.section { padding: 2rem 0; border-bottom: 1px solid var(--border); }
+.section h3 { margin: 0 0 1rem; font-size: 1.4rem; }
+.section h4 { margin: .2rem 0 .6rem; font-weight: 600; }
+
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 1rem; box-shadow: var(--shadow); }
+.timeline { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+
+.tags { list-style: none; display: flex; gap: .5rem; padding: 0; margin: 0; flex-wrap: wrap; }
+.tags li { border: 1px dashed var(--border); padding: .35rem .6rem; border-radius: 10px; }
+
+blockquote { margin: 0; padding-left: 1rem; border-left: 4px solid var(--brand); color: var(--muted); }
+
+/* Forms */
+form { display: grid; gap: .75rem; }
+label { display: grid; gap: .35rem; font-size: .95rem; }
+input, textarea { background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 12px; padding: .6rem .7rem; }
+input:focus, textarea:focus { outline: 2px solid var(--brand); border-color: var(--brand-strong); }
+.status { min-height: 1.2em; font-size: .9rem; color: var(--muted); }
+
+/* Footer */
+.site-footer { padding: 1.25rem 0; text-align: center; color: var(--muted); }
+.back-to-top { color: var(--text); border: 1px solid var(--border); padding: .25rem .55rem; border-radius: 10px; text-decoration: none; margin-left: .5rem; }
+.back-to-top:hover { color: var(--brand); border-color: var(--brand); }
+
+/* Smooth scrolling for anchor links */
+html { scroll-behavior: smooth; }
+
+
+---
+
+script.js (Well‑commented / Annotated)
+
+/* =============================
+   Small, accessible JS features
+   ============================= */
+
+// 1) Typing animation for the brand title
+const typingTarget = document.getElementById("typing-text");
+const typingText = "M. Logeshwari";
+const typingSpeed = 100; // ms per letter
+let i = 0;
+(function typeWriter() {
+  if (!typingTarget) return;
+  if (i < typingText.length) {
+    typingTarget.textContent += typingText.charAt(i);
+    i++;
+    setTimeout(typeWriter, typingSpeed);
+  }
+})();
+
+// 2) Theme toggle (Blue + Black Light Theme)
+//    - Persists user choice in localStorage
+//    - Defaults to light theme for better readability
+const THEME_KEY = "logeshwari-theme";
+const root = document.documentElement;
+const themeToggle = document.getElementById("themeToggle");
+
+function setTheme(theme) {
+  root.setAttribute("data-theme", theme);
+  if (themeToggle) {
+    themeToggle.textContent = theme === "light" ? "🌙" : "☀️"; // icon
+    themeToggle.setAttribute("aria-pressed", theme === "dark");
+  }
+  localStorage.setItem(THEME_KEY, theme);
+}
+
+// Initialize theme (respect saved preference or system, fallback to light)
+(function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved === "dark" || saved === "light") {
+    setTheme(saved);
+  } else {
+    const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTheme(systemDark ? "dark" : "light");
+  }
+})();
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const current = root.getAttribute("data-theme") || "light";
+    setTheme(current === "light" ? "dark" : "light");
+  });
+}
+
+// 3) Mobile navigation toggle
+const menuToggle = document.getElementById("menuToggle");
+const navList = document.getElementById("navList");
+if (menuToggle && navList) {
+  menuToggle.addEventListener("click", () => {
+    navList.classList.toggle("open");
+  });
+  // Close menu when a link is clicked (mobile UX)
+  navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navList.classList.remove('open')));
+}
+
+// 4) Active link highlighting while scrolling
+const sections = document.querySelectorAll("section[id]");
+const links = document.querySelectorAll(".nav-list a");
+const linkById = new Map([...links].map(a => [a.getAttribute('href').slice(1), a]));
+
+function onScroll() {
+  let currentId = null;
+  sections.forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top <= 120 && rect.bottom >= 120) {
+      currentId = sec.id;
+    }
+  });
+  links.forEach(a => a.classList.remove('active'));
+  if (currentId && linkById.has(currentId)) {
+    linkById.get(currentId).classList.add('active');
+  }
+}
+
+document.addEventListener('scroll', onScroll, { passive: true });
+window.addEventListener('load', onScroll);
+
+// 5) Footer year auto-update
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// 6) Contact form validation + fake submit (no backend)
+const form = document.getElementById('contactForm');
+const status = document.getElementById('formStatus');
+
+function validateEmail(email) {
+  // Basic email regex; good enough for client-side UX
+  return /\S+@\S+\.\S+/.test(email);
+}
+
+if (form) {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const name = String(data.get('name')||'').trim();
+    const email = String(data.get('email')||'').trim();
+    const message = String(data.get('message')||'').trim();
+
+    if (!name || !email || !message) {
+      status.textContent = 'Please fill in all fields.';
+      return;
+    }
+    if (!validateEmail(email)) {
+      status.textContent = 'Please enter a valid email address.';
+      return;
+    }
+
+    // Simulated submit
+    status.textContent = 'Sending…';
+    setTimeout(() => {
+      status.textContent = 'Thank you! Your message has been sent (demo).';
+      form.reset();
+    }, 600);
+  });
+}
+
+
+---
+
+How to Use / Customise
+
+Replace assets/photo.jpg with your real photo (keep the same path or update the src).
+
+Edit the content inside each section to refine wording or add links.
+
+Colors are driven by CSS variables. To tweak: change --brand, --bg, --card, etc.
+
+The theme toggle persists your choice and defaults to light for readability.
+
+
+> Tip: If you prefer everything in a single HTML file, I can provide a one-file version too.
